@@ -18,11 +18,7 @@ export interface NavButtonProps {
   onClick: MouseEventHandler;
 }
 
-export default ({
-  name,
-  icon,
-  onClick = e => e.preventDefault()
-}: NavButtonProps) => (
+const NavButton = ({ name, icon, onClick }: NavButtonProps) => (
   <li className="nav-item">
     <a
       href="#"
@@ -37,3 +33,9 @@ export default ({
     </a>
   </li>
 );
+
+NavButton.defaultProps = {
+  onClick: () => {}
+};
+
+export default NavButton;
