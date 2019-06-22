@@ -1,15 +1,15 @@
 {
-    "Query Log": "",
+    "Query Log": "Jornals de requèstas",
     "Whitelist": "Lista blanca",
     "Blacklist": "Lista negra",
     "Dashboard": "Panèl",
-    "Exact": "",
-    "Wildcard": "",
+    "Exact": "Excate",
+    "Wildcard": "Wildcard",
     "Login": "Connexion",
     "Logout": "Desconnexion",
     "Regex": "Regex",
     "Settings": "Paramètres",
-    "Networking": "",
+    "Networking": "Ret",
     "Versions": "Versions",
     "Preferences": "Preferéncias"
 }
