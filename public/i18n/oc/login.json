@@ -1,10 +1,10 @@
 {
-    "Password": "",
-    "Sign in to start your session": "",
-    "Log in": "",
-    "Forgot Password": "",
+    "Password": "Senhal",
+    "Sign in to start your session": "Connectatz-vos per començar la session",
+    "Log in": "Connexion",
+    "Forgot Password": "Senhal oblidat",
     "forgot_password_description": "",
-    "Wrong Password!": "",
-    "You will be transferred to the \"{{page}}\" page": "",
-    "Verify that cookies are allowed for {{host}}": ""
+    "Wrong Password!": "Senhal invalid !",
+    "You will be transferred to the \"{{page}}\" page": "Seretz enviat a la pagina « {{page}} »",
+    "Verify that cookies are allowed for {{host}}": "Verificatz que los cookies son autorizats per {{host}}"
 }
