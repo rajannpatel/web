@@ -1,15 +1,15 @@
 {
     "Query Log": "",
-    "Whitelist": "",
-    "Blacklist": "",
-    "Dashboard": "",
+    "Whitelist": "Lista blanca",
+    "Blacklist": "Lista negra",
+    "Dashboard": "Panèl",
     "Exact": "",
     "Wildcard": "",
-    "Login": "",
-    "Logout": "",
-    "Regex": "",
-    "Settings": "",
+    "Login": "Connexion",
+    "Logout": "Desconnexion",
+    "Regex": "Regex",
+    "Settings": "Paramètres",
     "Networking": "",
-    "Versions": "",
-    "Preferences": ""
+    "Versions": "Versions",
+    "Preferences": "Preferéncias"
 }
