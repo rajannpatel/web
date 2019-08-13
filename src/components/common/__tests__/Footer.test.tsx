@@ -15,11 +15,3 @@ import Footer from "../Footer";
 it("renders without crashing", () => {
   shallow(<Footer />).dive();
 });
-
-// it("opens links in a new window", () => {
-//   const wrapper = shallow(<Footer/>)
-//     .dive()
-//     .dive()
-//     .dive();
-//   expect(wrapper.find("#donatePaypal").prop("target")).toBe("_blank");
-// });
