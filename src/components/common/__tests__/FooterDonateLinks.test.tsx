@@ -10,16 +10,13 @@
 
 import React from "react";
 import { shallow } from "enzyme";
-import Footer from "../Footer";
+import FooterDonateLinks from "../FooterDonateLinks";
 
 it("renders without crashing", () => {
-  shallow(<Footer />).dive();
+  shallow(<FooterDonateLinks />).dive();
 });
 
-// it("opens links in a new window", () => {
-//   const wrapper = shallow(<Footer/>)
-//     .dive()
-//     .dive()
-//     .dive();
-//   expect(wrapper.find("#donatePaypal").prop("target")).toBe("_blank");
-// });
+it("opens links in a new window", () => {
+  const wrapper = shallow(<FooterDonateLinks />).dive();
+  expect(wrapper.find("#donatePaypal").prop("target")).toBe("_blank");
+});
