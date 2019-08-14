@@ -14,17 +14,9 @@ import FooterUpdateStatus from "./FooterUpdateStatus";
 import FooterDonateLinks from "./FooterDonateLinks";
 
 const Footer = (props: any) => {
-  const { t } = props;
-
   return (
     <footer className="app-footer">
-      <div>
-        <i className="fab fa-paypal" />
-        <strong>
-          <FooterDonateLinks />
-        </strong>{" "}
-        {t("if you found this useful")}
-      </div>
+      <FooterDonateLinks />
       <FooterUpdateStatus {...props} />
     </footer>
   );

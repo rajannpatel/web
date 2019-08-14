@@ -3,7 +3,7 @@
  * Network-wide ad blocking via your own hardware.
  *
  * Web Interface
- * FooterUpdateStatus component
+ * FooterDonateLinks component
  *
  * This file is copyright under the latest version of the EUPL.
  * Please see LICENSE file for your rights under this license. */
@@ -14,15 +14,19 @@ import { withTranslation } from "react-i18next";
 const FooterDonateLinks = (props: any) => {
   const { t } = props;
   return (
-    <a
-      id="donatePaypal"
-      target="_blank"
-      rel="noopener noreferrer"
-      href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3J2L3Z4DHW9UY"
-    >
-      &nbsp;
-      {t("Donate")}
-    </a>
+    <div>
+      <a
+        className="bold"
+        id="donatePaypal"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3J2L3Z4DHW9UY"
+      >
+        <i className="fab fa-paypal pr6" />
+        {t("Donate")}
+      </a>{" "}
+      {t("if you found this useful")}
+    </div>
   );
 };
 
